@@ -11,8 +11,8 @@ public class StrategyPatternTest {
     public void canTestViolation() {
         Violation individual = new IndividualViolation();
         Violation dependent = new DependentViolation();
-        Assert.assertEquals(individual.applyViolation(BigDecimal.valueOf(100)),BigDecimal.valueOf(200));
-        Assert.assertEquals(dependent.applyViolation(BigDecimal.valueOf(100)),BigDecimal.valueOf(300));
+        Assert.assertEquals(individual.applyViolation(BigDecimal.valueOf(100)), BigDecimal.valueOf(200));
+        Assert.assertEquals(dependent.applyViolation(BigDecimal.valueOf(100)), BigDecimal.valueOf(300));
 
     }
 }
