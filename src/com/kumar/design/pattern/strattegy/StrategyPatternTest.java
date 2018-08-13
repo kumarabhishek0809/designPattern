@@ -1,6 +1,6 @@
-package com.kumar.design.patter.strattegy;
+package com.kumar.design.pattern.strattegy;
 
-import org.junit.Assert;
+import junit.framework.Assert;
 import org.junit.Test;
 
 import java.math.BigDecimal;

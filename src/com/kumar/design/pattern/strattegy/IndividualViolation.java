@@ -1,4 +1,4 @@
-package com.kumar.design.patter.strattegy;
+package com.kumar.design.pattern.strattegy;
 
 import java.math.BigDecimal;
 
